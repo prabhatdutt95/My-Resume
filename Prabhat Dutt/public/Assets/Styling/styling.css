@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "myFont";
+    src: url('../vendors/coolvetica/coolvetica\ rg.ttf')
+}
+html {
+    scroll-behavior: smooth;
+  }  
+body{
+    font-family: "myFont";
+    overflow-x: hidden;
+}
+a{
+    color: white;
+}
+.date{
+    color: #103483;
+    font-size:22px;
+}
+a:hover{
+    color: rgba(196, 193, 193, 0.685);
+    zoom: 1.2;
+    text-decoration: none;
+    transition-delay: 30ms;
+}
+.sidebar{
+    background-color: #3b5998;
+    position: fixed;
+    height:100%;
+    padding: 5%;
+}
+.tkicons{
+    color: #787879e0
+}
+#skills{
+    padding-top: 5%;
+}
+contact-card{
+    background-color: #3b5998
+}
+.details{
+    background-color: #dfe3ee;
+}
+.name{
+    padding-top: 15%;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.detail-section{
+    height: 100vh;
+    padding-left: 2%;
+}
+.aboutDetail{
+    font-size: 20px;
+}
+#experience{
+    padding-top:15%;
+}
+.title1{
+    font-size: 40px;
+}
+.title2{
+    font-size:35px;
+}
+.title3{
+    font-size:28px;
+}
+#interests{
+    padding: 10%;
+    font-size: 18px;
+}
+.profile-image{
+    height: 40%;
+    border: 10px solid #8b9dc3;
+}
+.sidelist1{
+    list-style-type: none;
+    font-size: 22px;
+}
+.sidelist2{
+    margin-bottom: 8%;
+}
+hr{
+    background-color: black
+}
+#contactDetails{
+    padding-top: 15%;
+}
